@@ -1,4 +1,34 @@
-# Getting Started with Create React App
+# Task-Bank-Application
+
+Built a Banking Application using React.js that includes component-based architecture, URL routing, dynamic sorting based on user clicks, and real-time clean, responsive, and user-friendly UI.
+
+# Features
+•	 Routing: Navigate between pages like Transactions, Send Money, and Cards using clean URLs.
+
+•	Component-Based Structure: Organized code with reusable components like Header and BackButton.
+
+•	Click Tracking: Tracks how often each service is used and reorders the service list to show the most clicked first.
+
+•	Dynamic UI: Highlights favorite features with a star and shows "Clicked X times" for each service.
+
+# Technologies Used :
+
+•	React.js (Functional components)
+
+•	React Hooks (useState, useEffect)
+
+•	HTML/CSS (Responsive Design)
+
+# Folder Structure:
+
+![Screenshot 2025-06-12 102635](https://github.com/user-attachments/assets/602ebcf2-1aac-4c8b-9e9e-1c9622435357)
+
+Web-Page :
+
+![Screenshot 2025-06-12 102249](https://github.com/user-attachments/assets/b985f159-e4f6-466b-90f6-66645fc8dcef)
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
