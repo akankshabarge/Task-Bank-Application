@@ -23,7 +23,7 @@ function App() {
     return 'home';
   }
 
-  // Function that update URL when pages change
+  // Function to update URL when pages change
   function updateURL(pageName) {
     let path;
     if (pageName === 'home') {
@@ -45,7 +45,7 @@ function App() {
         console.log('Error reading saved data');
       }
     }
-    // Default values if nothing saved
+    // Default values 
     return {
       money: 0,
       send: 0,
@@ -56,7 +56,7 @@ function App() {
   // State to track which page we are on
   const [page, setPage] = useState(getCurrentPageFromURL());
   
-  // State to count clicks - initialize with saved data
+  // State to count clicks 
   const [clicks, setClicks] = useState(getSavedClicks);
 
   // Handle browser back and forward buttons
@@ -81,7 +81,7 @@ function App() {
       [pageName]: clicks[pageName] + 1
     };
     
-    // Update state
+    
     setClicks(newClicks);
     
     // Save to localStorage 
@@ -118,7 +118,7 @@ function App() {
     }
   ];
   
-  // Sorting buttons by click count (
+  // Sorting buttons by click count 
   buttons.sort(function(a, b) {
     return b.count - a.count;
   });
