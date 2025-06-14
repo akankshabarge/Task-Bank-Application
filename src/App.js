@@ -75,7 +75,7 @@ function App() {
   // Function to go to a specific page
 
   function gotopage(pageName) {
-    // Create new click counts
+    
     const newClicks = {
       ...clicks,
       [pageName]: clicks[pageName] + 1
