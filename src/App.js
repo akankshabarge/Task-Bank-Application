@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-
-
 import Homepage from './pages/Homepage'
 import Transactionpage from './pages/Transactionpage'
 import Sendmoneypage from './pages/Sendmoneypage'
